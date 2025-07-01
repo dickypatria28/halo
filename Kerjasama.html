@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form for Collaboration</title>
+  <link rel="stylesheet" href="Kerjasama.css">
+</head>
+<body>
+  <header>
+    <h1>Form For Collaboration</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Profil</a>
+    <a href="kerjasama.html" class="active">Kerjasama</a>
+  </nav>
+
+  <main>
+    <form>
+      <label>Nama:</label>
+      <input type="text" required><br>
+
+      <label>Email:</label>
+      <input type="email" required><br>
+
+      <label>Nama Perusahaan:</label>
+      <input type="text"><br>
+
+      <label>Jenis Kerja Sama:</label>
+      <select>
+        <option disabled selected>Pilih Jenis</option>
+        <option>Multimedia</option>
+        <option>Web Developer</option>
+        <option>Fintech</option>
+      </select><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" name="gender"> Laki-laki
+      <input type="radio" name="gender"> Perempuan<br>
+
+      <label>Minat:</label><br>
+      <input type="checkbox"> Desain
+      <input type="checkbox"> Programming<br>
+
+      <label>Upload File:</label>
+      <input type="file"><br>
+
+      <label>Waktu Pertemuan:</label>
+      <input type="datetime-local"><br>
+
+      <label>Pesan:</label><br>
+      <textarea></textarea><br>
+
+      <button type="submit">Kirim</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dicky Patria Negara - Formulir Kerjasama</p>
+  </footer>
+</body>
+</html>
